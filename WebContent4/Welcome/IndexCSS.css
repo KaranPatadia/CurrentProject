@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+* { box-sizing: border-box; }
+body{
+	background-color: #808080;
+}
+.main {
+	margin-left: 12%; /* Same as the width of the sidenav */
+	padding: 0px 10px;
+}
