@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+.footerContainer{
+	background-color: #eaf0f2;
+	font:14px/1.5 Arial, Helvetica, sans-serif;
+}
+/* In our demo, the footers are fixed to the bottom of the page */
+
+.footerContainer footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
